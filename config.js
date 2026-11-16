@@ -23,23 +23,23 @@ window.CONFIG = {
   // ----- IDENTIDADE DO CONVITE -------------------------------------------
   // Nome do aniversariante. Aparece no título da aba do navegador e nos
   // textos automáticos do convite.
-  nome: "Julia",
+  nome: "Melissa",
 
   // ----- WHATSAPP (CONFIRMAR PRESENÇA) -----------------------------------
   // numero: DDI + DDD + número, SÓ DÍGITOS (sem +, espaço, parênteses ou traço).
   //         Ex.: 55 (Brasil) + 31 (DDD) + 985657116 -> "5531985657116"
   // mensagem: texto que já vem pré-preenchido quando a pessoa abre o WhatsApp.
   whatsapp: {
-    numero: "5588994897535",
-    mensagem: "Olá! Confirmo minha presença no aniversário da Julia."
+    numero: "5527988821677",
+    mensagem: "Olá! Confirmo minha presença no aniversário da Melissa."
   },
 
-  confirmacao: { maxPessoas: 10 },
+  confirmacao: { maxPessoas: 6 },
 
   // ----- LOCALIZAÇÃO (BOTÃO MAPA) ----------------------------------------
   // Link completo do Google Maps. Abra o local no Maps, clique em "Compartilar"
   // -> "Copiar link" e cole aqui (mantenha as aspas).
-  mapa: "https://maps.app.goo.gl/Pr7wQHwkQHfamR1x7",
+  mapa: "https://maps.app.goo.gl/n79EkGZQsZBKM7ZQA",
 
   // ----- QUAIS TELAS APARECEM --------------------------------------------
   // video:     true  -> toca o vídeo (assets/video.mp4) depois da abertura.
@@ -62,8 +62,8 @@ window.CONFIG = {
   // chave: é exatamente o texto que será copiado quando o convidado clicar.
   // posicao: ajuste pelo editor visual (?editor=1), escolhendo “PIX (copiar chave)”.
   pix: {
-    ativo: false,
-    chave: "000",
+    ativo: true,
+    chave: "meloliveirastumbo@gmail.com",
     posicao: {"left":16.8,"top":64.0,"width":66.0,"height":8.2}
   },
 
